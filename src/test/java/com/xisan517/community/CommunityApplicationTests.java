@@ -23,8 +23,7 @@ public class CommunityApplicationTests {
     UserMapper userMapper;
     @Test
     public void testUser(){
-        List<User> users = userMapper.findAllUser();
-        System.out.println(users);
+
     }
 
 }
